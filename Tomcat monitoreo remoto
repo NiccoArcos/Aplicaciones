@@ -1,4 +1,4 @@
 #TOMCAT
 setenv.sh #(para habilitar el monitoreo remoto de la JVM)
 
-export CATALINA_OPTS="$CATALINA_OPTS -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=12345 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false -Djava.rmi.server.hostname=ipserverapp -Dcom.sun.management.jmxremote.rmi.port=10052 -Djava.net.preferIPv4Stack=true"
+export CATALINA_OPTS="$CATALINA_OPTS -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=12345 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false -Djava.rmi.server.hostname=100.25.34.154 -Dcom.sun.management.jmxremote.rmi.port=10052 -Djava.net.preferIPv4Stack=true"
